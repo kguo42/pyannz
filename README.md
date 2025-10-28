@@ -7,3 +7,7 @@ In the project, we follow the steps outlined in <em>ANNz: Estimating Photometric
 
 Test, Training, and validation data are obtained from: 
 https://www.homepages.ucl.ac.uk/~ucapola/annz.html
+
+For package dependencies, check requirement.txt or do the following interminal:
+
+pip install -r requirements.txt
