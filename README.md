@@ -1,5 +1,5 @@
 # pyannz
-The code use MLP to estimate redshfits with photometry. 
+The code use MLP to estimate redshfits with photometry. A Pytorch Version of ANNz with modifications.
 
 This is for CE397 class project. The goal is this project is to implement a Pytorch Version of ANNz (with modifications).
 
@@ -7,5 +7,3 @@ In the project, we follow the steps outlined in <em>ANNz: Estimating Photometric
 
 Test, Training, and validation data are obtained from: 
 https://www.homepages.ucl.ac.uk/~ucapola/annz.html
-
-
