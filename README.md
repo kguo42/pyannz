@@ -8,6 +8,8 @@ In the project, we follow the steps outlined in <em>ANNz: Estimating Photometric
 Test, Training, and validation data are obtained from: 
 https://www.homepages.ucl.ac.uk/~ucapola/annz.html
 
+An extra notebook trained on CANDELS data has been added.
+
 For package dependencies, check requirement.txt or do the following interminal:
 
 pip install -r requirements.txt
