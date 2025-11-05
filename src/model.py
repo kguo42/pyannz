@@ -92,7 +92,7 @@ def train_model(model, x_train, y_train, epochs=2000, lr=0.01, reg_type=None, la
         if reg_type == 'l2':
             l2_reg = torch.tensor(0.)
             for param in model.parameters():
-                l2_reg += torch.norm(param, 2) # we include bias terms in it
+                l2_reg += torch.norm(param, 2)**2 # we include bias terms in it
             loss += lambda_reg * l2_reg
         elif reg_type == 'l1':
             l1_reg = torch.tensor(0.)
